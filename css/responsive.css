@@ -49,15 +49,21 @@
     .banner_main {
         padding: 30px 0 0px 0;
     }
+    .video{
+        width: 598px;
+        height: 316px;
+   }
 }
 
 @media (min-width: 576px) and (max-width: 767px) {
-    
+
+    .video{
+        width: 518px;
+        height: 291px;
+   }
     .contact{
         padding-bottom: 200px;
     }
-
-
     .head_top,.main-layout_contato{
         background: #0891f8;
     }
@@ -129,7 +135,10 @@
 }
 
 @media (max-width: 575px) {
-
+    .video{
+        width: 437px;
+        height: 245px;
+   }
     .contact{
         padding-bottom: 200px;
     }

@@ -242,6 +242,12 @@ button {
      text-align: center;
      color:#008df3
 }
+#sobre_fundo,.confirma{
+    background-repeat: no-repeat;
+    background-image: url(../images/fundo_sobre_2.png);
+    background-size:  cover;
+    background-position: center;
+}
 #sobre_title{
      font-size: 68px;
      color: #000;
@@ -249,6 +255,7 @@ button {
 #black{
      color: #000;
 }
+
 /* preloader area */
 
 .main-layout {
@@ -326,7 +333,7 @@ button {
 
 .head_top_contato{
      background: url(../images/banner_espelhado.png);
-     height: 600px;
+     height: 951px;
 }
 .header {
      position:relative;
@@ -443,7 +450,10 @@ button {
 
 
 /** area1 **/
-
+.video{
+     width: 830px;
+     height: 466.875px;
+}
 .business {
      padding-top: 90px;
 }
@@ -644,7 +654,8 @@ button {
 
 .contact {
      padding-top: 0px;
-     margin-top: -365px;
+     margin-top: -785px;
+     text-align: center;
 }
 
 .main_form {
@@ -751,7 +762,7 @@ button {
 }
 
 .footer {
-     background: #fff;
+     background: rgb(255 255 255 / 0%);
 }
 
 .cont {
@@ -821,10 +832,12 @@ ul.social_icon li a:hover {
      content: "";
      position: absolute;
      bottom: 61px;
+     left: 0px;
      background: url(../images/bottom.png);
      width: 290px;
      height: 292px;
      right: 0;
+     transform: scalex(-1);
 }
 
 .copyright p {
@@ -842,6 +855,36 @@ ul.social_icon li a:hover {
      color: #23262d;
 }
 
-
 /** end footer **/
+/* confirma formulario */
+.confirma{
+     background-color: #fff;
+}
+.layout_confirma{
+     background-color: #008df3;
+     background-image: url(../images/axalote_sobre.png);
+     background-position: center;
+     width: 600px;
+     height: 600px;
+     border: 0.1px solid #008df3;
+     border-radius: 50%;
+}
 
+.text_confirma h1{
+     color: #fff;
+     text-align: center;
+     padding-top:280px;
+     height: 550px;
+     border-radius: 500px;
+}
+.botao_comfirma{
+     background-color: #008df3;
+     align-items: center;
+     text-align: center;
+     width: 70px;
+     height: 30px;
+     position: relative;
+     right: -47%;
+     top: 10px;
+     border-radius: 30px;
+}
